@@ -16,9 +16,7 @@ public class CharacterFile{
     
     public void editRecord(String enemy, String userClass){
         
-        String tempFile = File.separator + "Users" + File.separator + "YunaK" + File.separator + "Documents" + File.separator +
-            "NetBeansProjects" + File.separator + "TestDungeon" + File.separator +
-            "src" + File.separator + "main" + File.separator + "java" + File.separator + "temp.csv";
+        String tempFile = "temp.csv";
         File oldFile = new File(fileLocation);
         File newFile = new File(tempFile);
 
