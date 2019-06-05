@@ -7,9 +7,7 @@ public class CharacterFile{
     private static String[][] myArray;
     int[] tempArray = new int[28];
     Scanner scanIn = null;
-    String fileLocation = File.separator + "Users" + File.separator + "YunaK" + File.separator + "Documents" + File.separator +
-            "NetBeansProjects" + File.separator + "TestDungeon" + File.separator +
-            "src" + File.separator + "main" + File.separator + "java" + File.separator + "CharacterFile.csv";
+    String fileLocation = "CharacterFile.csv";
     File file = new File(fileLocation);
     int Rowc = 0;
     int x = 0;
